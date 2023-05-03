@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="">
+       <fieldset>
+        <legend>Dados Pessoais</legend>
+         <div>
+            <label for="nome_usuario">Nome:</label><!--Label insere um rótulo-->
+            <!--Input texte é um campo de entrada de texto-->
+            <input type="text" name="nome_usuario" id="nome_usuario" size="30"
+             maxlength="15" minlength="3">
+         </div>
+         <br>
+         <div>
+            <label for="end">Endereço:</label><!--Label insere um rótulo-->
+            <!--Input texte é um campo de entrada de texto-->
+            <input type="text" name="end" id="end" size="30"
+             maxlength="15" minlength="3">
+         </div>
+         <br>
+         <div>
+            <label for="cdd">Cidade:</label><!--Label insere um rótulo-->
+            <!--Input texte é um campo de entrada de texto-->
+            <input type="text" name="cdd" id="cdd" size="30"
+             maxlength="15" minlength="3">
+         </div>
+         <br>
+         <div>
+            <label for="">Estado</label>
+             <select name="estado" id="estado">
+               <option value="tsi">São Paulo</option>
+                <option value="tme">Rio de Janeiro</option>
+               <option value="inf">Espitito Santo</option>
+                <option value="adm">Minas Gerais</option>
+                <option value="tsi">Amazonas</option>
+                <option value="tme">Bahia</option>
+               <option value="inf">Ceará</option>
+                <option value="adm">Goias</option>
+                <option value="tsi">Mato grosso</option>
+                <option value="tme">Santa Catarina</option>
+               <option value="inf">Pará</option>
+                <option value="adm">Santa Catarina</option>
+               </select>
+            </fieldset>
+          </div>
+            <br>
+            <fieldset>
+                <legend>Dados Proficionais</legend>
+            <div>
+                <label for="">Natureza do Cargo</label><br>
+                <input type="radio" name="natu" id="geren" checked>
+                <label for="geren">Gerência</label>
+                <input type="radio" name="natu" id="fina">
+                <label for="fina">Financeira</label>
+                <input type="radio" name="natu" id="recep">
+                <label for="recep">recepção</label>
+                <input type="radio" name="natu" id="adm">
+                <label for="adm">Administrativo</label>
+                <input type="radio" name="natu" id="juri">
+                <label for="juri">Jurídoco</label>
+                
+               </div>
+              <br>
+              <div> 
+                 <label for="">Área de interesse</label>
+                 <input type="checkbox" name="comp" id="comp">
+                 <label for="comp">Computação</label>
+                 <input type="checkbox" name="bio" id="bio">
+                 <label for="bio">Biologia</label>
+                 <input type="checkbox" name="meio" id="meio">
+                 <label for="meio">Meio Ambiente</label>
+                 <input type="checkbox" name="eng" id="eng">
+                 <label for="eng">Engenharia</label>
+                 <input type="checkbox" name="his" id="his">
+                 <label for="his">História</label>
+             </div>
+             <div>
+                <label for="mini">Mini-curículo:</label>
+             <textarea name="" id="" cols="30" rows="10" ></textarea>
+            </div>
+       </fieldset>
+        <br>
+
+</body>
+</html>
