@@ -1,0 +1,19 @@
+.cor-fundo{
+    background-color: darkmagenta;
+    color: azure;
+    width: 30%;
+}
+.item{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+.item-1{
+    background-color: darkslategrey;
+}
+.item-2{
+    background-color:lightslategray;
+}
+.item-3{
+    background-color:brown;
+}
